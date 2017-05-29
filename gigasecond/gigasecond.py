@@ -1,2 +1,4 @@
+from datetime import *
+
 def add_gigasecond(date):
-    print(date)
+    return date + timedelta(seconds = 10**9)
